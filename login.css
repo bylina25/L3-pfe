@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8%;
+    padding-top:180px;
+    width: 100%;
+    background-image:url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-family: arial, sans-serif;
+}
+.login-container{
+    width: 400px;
+    padding: 15px;
+    background-color: rgb(236, 232, 232);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    top: -30px;
+    left: 100px;
+    position: relative;
+}
+.login-container h2{
+    text-align: center;
+    color: #8e1b1b;
+    margin-bottom: 20px;
+}
+.login-container p{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.login-container input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    outline:none;
+
+}
+.login-container button{
+    width: 100%;
+    padding: 12px;
+    background-color: #8e1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.login-container button:hover{
+    background-color: #6e1414;
+}
+
+.company-info{
+    position: absolute;
+    left: 5%;
+    top :40%;
+    width: 40%;
+    color: #000000;
+}
+.burgundy-line {
+    width: 65px;
+    height: 4px;
+    background-color: #800020;
+    margin-bottom: 25px;
+}
+
+.welcome {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.sntp-title {
+    color: #800020;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.burgundy-line {
+    width: 65px;
+    height: 4px;
+    background-color: #800020;
+    margin-bottom: 25px;
+}
+
+.welcome {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.sntp-title {
+    color: #800020;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.burgundy-line {
+    width: 65px;
+    height: 4px;
+    background-color: #800020;
+    margin-bottom: 25px;
+}
+
+.welcome {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.sntp-title {
+    color: #800020;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.burgundy-line {
+    width: 65px;
+    height: 4px;
+    background-color: #800020;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.welcome {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.sntp-title {
+    color: #800020;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.description {
+    color: white;
+    font-size: 23px;
+    line-height: 1.7;
+
+}
+/* Profile icon */
+.profile-icon {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #800020;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.profile-icon i {
+    color: #800020;
+    font-size: 100px;
+}
+
+/* Input fields */
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.input-box i {
+    color: #800020;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.input-box input {
+    flex: 1;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0;
+    padding: 5px;
+    min-width: 0;
+}
+
+#togglePassword {
+    color: black;
+    font-size: 18px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* Login button icon */
+.login-container button i {
+    color: white;
+    margin-right: 8px;
+    font-size: 18px;
+}
+.login-container h2 {
+    margin-bottom: 12px;
+}
+
+.login-container p {
+    margin-bottom: 15px;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+.profile-icon i {
+    font-size: 70px;
+}
+
+.input-box {
+    padding: 9px 12px;
+    margin-bottom: 14px;
+}
+
+.login-container button {
+    padding: 10px;
+}
+/* TOP NAVBAR */
+.top-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(236, 232, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    z-index: 1000;
+}
+
+/* Company identity */
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-logo {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    color: #800020;
+    font-size: 42px;
+}
+
+.brand-short {
+    color: #800020;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.brand-divider {
+    width: 3px;
+    height: 65px;
+    background-color: black;
+    margin: 0 8px;
+}
+
+.brand-full {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Right navigation */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    background: transparent;
+}
+
+.nav-link i {
+    font-size: 19px;
+}
+
+.nav-link:first-child i {
+    color: #800020;
+}
+logo
+.about-link i {
+    color: black;
+    font-size: 20px;
+}
+.footer.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #800020;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
